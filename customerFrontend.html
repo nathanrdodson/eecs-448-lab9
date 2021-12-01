@@ -1,0 +1,30 @@
+<html>
+	<head></head>
+	<body>
+		<form action="customerBackend.php" method="post">
+		<fieldset>
+		    	<legend>User Login Information</legend>
+			<label for="email">User Email</label>
+			<input type="email" name="user" id="email" required/><br/>
+			<label for="password">Password</label>
+    			<input type="password" name="password" id="password" required/><br/>
+		</fieldset>
+		<fieldset>
+		    	<legend>What would you like to purchase?</legend>
+			<label for="socks">Socks | $5.00 | qty: </label>
+			<input required type="number" name="socks" min="0"/><br>
+			<label for="shirts">Shirts | $20.00 | qty: </label>
+			<input required type="number" name="shirts" min="0"/><br>
+			<label for="shorts">Shorts | $30.00 | qty: </label>
+			<input required type="number" name="shorts" min="0"/><br>
+		</fieldset>
+		<fieldset>
+		    	<legend>Shipping</legend>
+			<input required type="radio" name="shipping" id="ship1" value="0"/><label for="ship1">7-day | Free</label><br/>
+    			<input type="radio" name="shipping" id="ship2" value="50"/><label for="ship2">Overnight | $50.00</label><br/>
+    			<input type="radio" name="shipping" id="ship3" value="5"/><label for="ship3">3-day | $5.00</label><br/>
+		</fieldset>
+		<input type="reset"><input type="submit" value="Submit Quiz">
+       		</form>
+   	</body>
+</html>

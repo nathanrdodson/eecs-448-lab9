@@ -1,0 +1,42 @@
+div p {
+    font-family: Consolas;
+    font-size: 50px;
+    color: black;
+    text-align: center;
+}
+
+#one {
+    width: 50%;
+    height: 50%;
+    background-color: red;
+    float: left;
+}
+#one:hover {
+    background-color: lightcoral;
+}
+#two {
+    width: 50%;
+    height: 50%;
+    background-color: green;
+    float: right;
+}
+#two:hover {
+    background-color: lightgreen;
+}
+#three {
+    width: 50%;
+    height: 50%;
+    background-color: blue;
+    float: left;
+}
+#three:hover {
+    background-color: lightblue;
+}
+#four {
+    width: 50%;
+    height: 50%;
+    float: right;
+}
+#four:hover {
+    background-color: lightgray;
+}
